@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
 //desc:Add user
 //access:Private
 router.post('/', (req, res) => {
-    res.send('Add user')
+    res.send(req.body)
 })
 
 //desc:Update user
